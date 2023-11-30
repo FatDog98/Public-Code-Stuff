@@ -1,3 +1,5 @@
+# Preface
+
 Applying consistent and easy to read code benefits not only the code owner, but for the other people working or viewing the code to understand. This scratch was made to set the general rules for **Nara**'s codebase based in **Java** programming language. Keeping the code readable and clean enables other developers to be able to adapt, collaborate, and maintain the code while typing uniformly. Consistency helps scalability and extensibility of the code.
 
 Remember that these are just some general rules to keep the code consistent, there might be an exemption in some other cases.
@@ -12,17 +14,17 @@ This rules applies for **Maven** based structures. I have been using Maven more 
 
 ```
 src
-    ├── main
-    │   ├── database               Database sources
-    │   ├── java                   Application/Library sources
-    │   ├── resources              Application/Library resources
-    │   ├── filters                Resource filter files
-    │   └── webapp                 Web application sources
-    │   
-    └── test
-        ├── java                   Test sources
-        ├── resources              Test resources
-        └── filters                Test resource filter files
+├── main
+│   ├── database               Database sources
+│   ├── java                   Application/Library sources
+│   ├── resources              Application/Library resources
+│   ├── filters                Resource filter files
+│   └── webapp                 Web application sources
+│   
+└── test
+	├── java                   Test sources
+	├── resources              Test resources
+	└── filters                Test resource filter files
 ```
 
 ## Naming conventions, whitespaces, indentations, restrictions
