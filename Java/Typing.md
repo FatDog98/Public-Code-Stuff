@@ -33,7 +33,7 @@ src
 |:---:| ---------------------- | --------------------------------------- | ------------------ |
 |  1  | Classes and Interfaces | Should be nouns, capitalized            | `Canal`            |
 |  2  | Interfaces             | Adjectives ending with "-able"          | `Traversable`      |
-|  3  | Variables              | `camelCase` style, short but meaningful | `isClosed`         |
+|  3  | Variables              | `camelCase` style, short but meaningful | `closed`           | 
 |  4  | Constant Variables     | Capitalized, separated with underscores | `DEFAULT_WIDTH`    |
 |  5  | Packages               | lowercase letters                       | `sample.naming`    |
 |  6  | Variable Assignments   | Whitespaces around `=`                  | `this.id = id`     |
@@ -53,7 +53,7 @@ public class Canal implements Traversable {
    public static final int DEFAULT_DISTANCE = 40;  
    private String id;  
    protected int distance;  
-   private boolean isClosed = false;  
+   private boolean closed = false;  
   
    public Canal(String id) {  
       // Calls the other constructor  
@@ -78,6 +78,13 @@ public class Canal implements Traversable {
 ### Method declarations
 
 A method should be short, understandable, and meaningful. Parameters should also be named according to the context. Some examples:
+
+```
+// Boolean getter methods may start with "has" or "is" following its context
+public boolean isClosed() {  
+   return closed;  
+}
+```
 
 ```
 // Boolean methods may start with "has" or "is" following its context
