@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3eec2ce6e00f1dc5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "1df6f80e4943b958",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +147,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "397ce4610432143e",
+  "active": "1df6f80e4943b958",
   "lastOpenFiles": [
     "Public-Code-Stuff",
     "Java",

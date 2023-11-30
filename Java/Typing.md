@@ -22,9 +22,9 @@ src
 │   └── webapp                 Web application sources
 │   
 └── test
-	├── java                   Test sources
-	├── resources              Test resources
-	└── filters                Test resource filter files
+├── java                   Test sources
+├── resources              Test resources
+└── filters                Test resource filter files
 ```
 
 ## Naming conventions, whitespaces, indentations, restrictions
